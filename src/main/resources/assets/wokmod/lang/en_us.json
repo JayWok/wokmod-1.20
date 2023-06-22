@@ -1,0 +1,26 @@
+{
+  "itemGroup.wok_tab": "WokMod",
+
+  "item.wokmod.banana": "Banana",
+  "item.wokmod.brass_ingot": "Brass Ingot",
+  "item.wokmod.kiwi": "Kiwi",
+  "item.wokmod.lead_ingot": "Lead Ingot",
+  "item.wokmod.orange": "Orange",
+  "item.wokmod.raw_brass": "Raw Brass",
+  "item.wokmod.raw_lead": "Raw Lead",
+  "item.wokmod.rocks": "Rocks",
+  "item.wokmod.strawberry": "Strawberry",
+  "item.wokmod.twig": "Twig",
+
+  "block.wokmod.brass_block": "Brass Block",
+  "block.wokmod.brass_ore": "Brass Ore",
+  "block.wokmod.cobblestone_door": "Cobblestone Door",
+  "block.wokmod.compact_cobblestone_1x": "Compact Cobblestone (1x)",
+  "block.wokmod.compact_cobblestone_2x": "Compact Cobblestone (2x)",
+  "block.wokmod.compact_cobblestone_3x": "Compact Cobblestone (3x)",
+  "block.wokmod.compact_cobblestone_4x": "Compact Cobblestone (4x)",
+  "block.wokmod.compact_cobblestone_5x": "Compact Cobblestone (5x)",
+  "block.wokmod.lead_block": "Lead Block",
+  "block.wokmod.lead_ore": "Lead Ore",
+  "block.wokmod.twig_block": "Twig Block"
+}

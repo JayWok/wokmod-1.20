@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wokmod:block/lead_ore"
+    }
+  }
+}

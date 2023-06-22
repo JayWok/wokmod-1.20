@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wokmod:compact_cobblestone_5x"
+    }
+  ],
+  "result": {
+    "item": "wokmod:compact_cobblestone_4x",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wokmod:brass_block"
+    }
+  ],
+  "result": {
+    "item": "wokmod:brass_ingot",
+    "count": 9
+  }
+}

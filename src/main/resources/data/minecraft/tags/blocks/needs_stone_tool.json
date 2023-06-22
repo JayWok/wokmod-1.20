@@ -1,0 +1,12 @@
+{
+  "require": false,
+  "values":
+          [
+            "wokmod:brass_block",
+            "wokmod:brass_ore",
+            "wokmod:compact_cobblestone_1x",
+            "wokmod:compact_cobblestone_2x",
+            "wokmod:lead_block",
+            "wokmod:lead_ore"
+          ]
+}

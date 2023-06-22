@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "wokmod:block/twig_block",
+    "particle": "wokmod:block/twig_block"
+  },
+  "render_type": "cutout_mipped"
+}

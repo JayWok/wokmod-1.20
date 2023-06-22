@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wokmod:compact_cobblestone_3x"
+    }
+  },
+  "result": {
+    "item": "wokmod:compact_cobblestone_4x"
+  }
+}

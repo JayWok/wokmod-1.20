@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values":
+          [
+            "wokmod:brass_block",
+            "wokmod:brass_ore",
+            "wokmod:compact_cobblestone_1x",
+            "wokmod:compact_cobblestone_2x",
+            "wokmod:compact_cobblestone_3x",
+            "wokmod:compact_cobblestone_4x",
+            "wokmod:compact_cobblestone_5x",
+            "wokmod:cobblestone_door",
+            "wokmod:lead_block",
+            "wokmod:lead_ore"
+          ]
+}

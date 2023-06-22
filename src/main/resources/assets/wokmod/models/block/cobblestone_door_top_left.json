@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "wokmod:block/cobblestone_door_bottom",
+    "top": "wokmod:block/cobblestone_door_top"
+  },
+  "render_type": "cutout_mipped"
+}
