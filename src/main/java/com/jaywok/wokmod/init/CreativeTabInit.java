@@ -54,6 +54,7 @@ public class CreativeTabInit
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ItemInit.BRASS_INGOT);
+            event.accept(ItemInit.EMPTY_CASINGS);
             event.accept(ItemInit.LEAD_INGOT);
             event.accept(ItemInit.RAW_BRASS);
             event.accept(ItemInit.RAW_LEAD);

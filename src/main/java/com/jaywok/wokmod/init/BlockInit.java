@@ -33,6 +33,8 @@ public class BlockInit
                     .sound(SoundType.COPPER)
                     .requiresCorrectToolForDrops()
                     .strength(2, 6)
+                    .noOcclusion()
+                    .dynamicShape()
                     , BlockSetType.STONE));
 
 

@@ -92,6 +92,9 @@ public class ItemInit
     public static final RegistryObject<Item> LEAD_BLOCK_ITEM = addToTab(ITEMS.register("lead_block",
             () -> new BlockItem(BlockInit.LEAD_BLOCK.get(), new Item.Properties())));
 
+    // Empty Casings
+    public static final RegistryObject<Item> EMPTY_CASINGS = addToTab(ITEMS.register("empty_casings",
+            () -> new Item(new Item.Properties())));
 
     //
     // Properties
