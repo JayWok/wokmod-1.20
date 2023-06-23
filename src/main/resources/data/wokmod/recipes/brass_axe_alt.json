@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "#X",
+    "# "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "wokmod:brass_ingot"
+    }
+  },
+  "result": {
+    "item": "wokmod:brass_axe"
+  }
+}

@@ -13,6 +13,12 @@
   "item.wokmod.strawberry": "Strawberry",
   "item.wokmod.twig": "Twig",
 
+  "item.wokmod.brass_axe": "Brass Axe",
+  "item.wokmod.brass_pickaxe": "Brass Pickaxe",
+  "item.wokmod.brass_hoe": "Brass Hoe",
+  "item.wokmod.brass_shovel": "Brass Shovel",
+  "item.wokmod.brass_sword": "Brass Sword",
+
   "block.wokmod.brass_block": "Brass Block",
   "block.wokmod.brass_ore": "Brass Ore",
   "block.wokmod.cobblestone_door": "Cobblestone Door",

@@ -2,8 +2,7 @@ package com.jaywok.wokmod.init;
 
 import com.jaywok.wokmod.WokMod;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -78,6 +77,46 @@ public class ItemInit
     // Brass Block
     public static final RegistryObject<Item> BRASS_BLOCK_ITEM = addToTab(ITEMS.register("brass_block",
             () -> new BlockItem(BlockInit.BRASS_BLOCK.get(), new Item.Properties())));
+    // Brass Sword
+    public static final RegistryObject<SwordItem> BRASS_SWORD = addToTab(ITEMS.register("brass_sword",
+            () -> new SwordItem(
+                    TierInit.BRASS,
+                    1, // Attack Damage
+                    -2.4f, // Attack Speed
+                    new Item.Properties()
+            )));
+    // Brass Pickaxe
+    public static final RegistryObject<PickaxeItem> BRASS_PICKAXE = addToTab(ITEMS.register("brass_pickaxe",
+            () -> new PickaxeItem(
+                    TierInit.BRASS,
+                    -1, // Attack Damage
+                    -2.8f, // Attack Speed
+                    new Item.Properties()
+            )));
+    // Brass Axe
+    public static final RegistryObject<AxeItem> BRASS_AXE = addToTab(ITEMS.register("brass_axe",
+            () -> new AxeItem(
+                    TierInit.BRASS,
+                    3, // Attack Damage
+                    -3f, // Attack Speed
+                    new Item.Properties()
+            )));
+    // Brass Shovel
+    public static final RegistryObject<ShovelItem> BRASS_SHOVEL = addToTab(ITEMS.register("brass_shovel",
+            () -> new ShovelItem(
+                    TierInit.BRASS,
+                    0, // Attack Damage
+                    -3f, // Attack Speed
+                    new Item.Properties()
+            )));
+    // Brass Hoe
+    public static final RegistryObject<HoeItem> BRASS_HOE = addToTab(ITEMS.register("brass_hoe",
+            () -> new HoeItem(
+                    TierInit.BRASS,
+                    -4, // Attack Damage
+                    -1f, // Attack Speed
+                    new Item.Properties()
+            )));
 
     // Lead Ore
     public static final RegistryObject<Item> LEAD_ORE_ITEM = addToTab(ITEMS.register("lead_ore",
