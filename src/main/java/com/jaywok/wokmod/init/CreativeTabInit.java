@@ -88,10 +88,10 @@ public class CreativeTabInit
         }
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)
         {
+            event.accept(ItemInit.BRASS_SHOVEL);
+            event.accept(ItemInit.BRASS_PICKAXE);
             event.accept(ItemInit.BRASS_AXE);
             event.accept(ItemInit.BRASS_HOE);
-            event.accept(ItemInit.BRASS_PICKAXE);
-            event.accept(ItemInit.BRASS_SHOVEL);
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT)
         {

@@ -17,14 +17,7 @@ public class BlockInit
 
     // Creates individuals blocks to add to registry above
 
-    //
-
-    // Twig Block
-    public static final RegistryObject<Block> TWIG_BLOCK = BLOCKS.register("twig_block",
-            () -> new SugarCaneBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.WOOD)
-                    .sound(SoundType.WOOD)));
-
+    // Blocks
 
     // Cobblestone Door
     public static final RegistryObject<Block> COBBLESTONE_DOOR = BLOCKS.register("cobblestone_door",
@@ -36,8 +29,6 @@ public class BlockInit
                     .noOcclusion()
                     .dynamicShape()
                     , BlockSetType.STONE));
-
-
     // Compact Cobblestone 1x
     public static final RegistryObject<Block> COMPACT_COBBLESTONE_1X = BLOCKS.register("compact_cobblestone_1x",
             () -> new Block(BlockBehaviour.Properties.of()
@@ -73,23 +64,11 @@ public class BlockInit
                     .sound(SoundType.STONE)
                     .requiresCorrectToolForDrops()
                     .strength(20, 1200)));
-
-
-    // Lead Block
-    public static final RegistryObject<Block> LEAD_BLOCK = BLOCKS.register("lead_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.TERRACOTTA_GRAY)
-                    .sound(SoundType.COPPER)
-                    .requiresCorrectToolForDrops()
-                    .strength(2, 6)));
-    // Lead Ore
-    public static final RegistryObject<Block> LEAD_ORE = BLOCKS.register("lead_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.STONE)
-                    .sound(SoundType.STONE)
-                    .requiresCorrectToolForDrops()
-                    .strength(2, 6),
-                    UniformInt.of(2, 5)));
+    // Twig Block
+    public static final RegistryObject<Block> TWIG_BLOCK = BLOCKS.register("twig_block",
+            () -> new SugarCaneBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.WOOD)
+                    .sound(SoundType.WOOD)));
     // Brass Block
     public static final RegistryObject<Block> BRASS_BLOCK = BLOCKS.register("brass_block",
             () -> new Block(BlockBehaviour.Properties.of()
@@ -97,8 +76,23 @@ public class BlockInit
                     .sound(SoundType.COPPER)
                     .requiresCorrectToolForDrops()
                     .strength(2, 6)));
+    // Lead Block
+    public static final RegistryObject<Block> LEAD_BLOCK = BLOCKS.register("lead_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.TERRACOTTA_GRAY)
+                    .sound(SoundType.COPPER)
+                    .requiresCorrectToolForDrops()
+                    .strength(2, 6)));
     // Brass Ore
     public static final RegistryObject<Block> BRASS_ORE = BLOCKS.register("brass_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.STONE)
+                    .sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()
+                    .strength(2, 6),
+                    UniformInt.of(2, 5)));
+    // Lead Ore
+    public static final RegistryObject<Block> LEAD_ORE = BLOCKS.register("lead_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.STONE)
                     .sound(SoundType.STONE)

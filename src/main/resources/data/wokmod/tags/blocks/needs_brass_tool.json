@@ -2,6 +2,7 @@
   "replace": false,
   "values":
           [
-
+            "wokmod:compact_cobblestone_3x",
+            "wokmod:compact_cobblestone_4x"
           ]
 }

@@ -1,6 +1,5 @@
 package com.jaywok.wokmod.init;
 
-import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
 
@@ -13,10 +12,10 @@ public class TierInit
     public static final ForgeTier BRASS = new ForgeTier(
             2,
             500,
-            0.2f,
-            4,
-            14,
-            BlockTags.NEEDS_IRON_TOOL,
+            1f,
+            2,
+            15,
+            TagInit.NEEDS_BRASS_TOOL,
             () -> Ingredient.of(ItemInit.BRASS_INGOT::get)
     );
 }

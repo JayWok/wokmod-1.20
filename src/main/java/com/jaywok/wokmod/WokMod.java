@@ -3,6 +3,7 @@ package com.jaywok.wokmod;
 import com.jaywok.wokmod.init.BlockInit;
 import com.jaywok.wokmod.init.CreativeTabInit;
 import com.jaywok.wokmod.init.ItemInit;
+import com.jaywok.wokmod.init.client.ClientSetupInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -15,6 +16,8 @@ public class WokMod
     public WokMod()
     {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        bus.addListener(ClientSetupInit::clientSetup);
 
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
